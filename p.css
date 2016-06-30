@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	/*background: #f5f5f5;*/
+	font: 12px/1.5 "Microsoft YaHei", 微软雅黑,\9ed1\4f53,\5b8b\4f53, "Microsoft JhengHei", 华文细黑, STHeiti, MingLiu;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1466154461_8845177.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1466154461_8845177.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1466154461_8845177.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1466154461_8845177.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1466154461_8845177.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.p-container {
+	color: #333;
+}
+.p-container h2 {
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+.p-container p{
+	font-size: 14px;
+	text-indent: 2rem;
+}
+.p-container .link-img {
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	float: left;
+}
+.p-container .link-img-2{
+	display: inline-block;
+	width: 50%;
+	height: 200px;
+	float: left;
+
+}
+.p-container .link-img-3{
+	display: inline-block;
+	width: 33.333%;
+	height: 120px;
+	float: left;
+}
+.p-container .link-img-4{
+	display: inline-block;
+	width: 25%;
+	height: 80px;
+	float: left;
+}
+.p-container .link-img img,
+.p-container .link-img-2 img,
+.p-container .link-img-3 img,
+.p-container .link-img-4 img,
+.p-container .box-r img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.p-container .box-r {
+	height: 200px;
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+.p-container .box-l {
+	height: 200px;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	word-break: break-all;
+}
+.p-container #slider{
+	background: #f5f5f5;
+}
+
+.p-container #slider li a{
+}
+.box{
+	width: 100%;
+	overflow:hidden; 
+	float: left;
+}
+.container {
+
+}
