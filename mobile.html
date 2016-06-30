@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./base.css">
+	<link rel="stylesheet" type="text/css" href="./p.css">
+	<script type="text/javascript" src="./jquery.min.js"></script>
+	<script type="text/javascript" src="./newEdit.js"></script>
+	<script type="text/javascript" src="./touchslider.js"></script>
+	<title>手机网页编辑器</title>
+</head>
+<body>
+<div class="wrap clear">
+	<div class="w-left">
+		<h2>添加组件</h2>
+		<ul class="modules clear">
+			<li><b class="icon m-icon">&#xe605;</b></li>
+			<li><b class="icon m-icon">&#xe603;</b></li>
+			<li><b class="icon m-icon">&#xe602;</b></li>
+			<li><b class="icon m-icon">&#xe604;</b></li>
+			<li><b class="icon m-icon">&#xe604;<em>*3</em></b></li>
+			<li><b class="icon m-icon">&#xe604;<em>*4</em></b></li>
+			<li><b class="icon m-icon">&#xe607;</b></li>
+			<li><b class="icon m-icon">&#xe601;</b></li>
+			
+		</ul>
+	</div>
+	<div class="w-middle">
+		<div id="phone">
+			<div class="p-top"></div>
+			<div id="container">
+				<div class="p-container clear"></div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="w-right">
+		<h2>编辑</h2>
+	</div>
+</div>
+<div id="cover">
+	
+</div>
+<div id="codePanel">
+	<div class="title"><p>代码</p><a href="javascript:void(0)" id="close" class="close"></a></div>
+	<div id="code"></div>
+</div>
+<div id="updata">
+	<input id="fileName" placeholder="请输入创建的页面名称,请使用英文" />
+	<p id="tip"></p>
+	<button class="upbtn" id="upload">确认提交</button>
+	<button class="upbtn close" >取消</button>
+</div>
+<a href="javascript:void(0)" id="getCode">获取代码</a>
+<a href="javascript:void(0)" id="preview">预览页面</a>
+<a href="javascript:void(0)" id="create">生成页面</a>
+</body>
+</html>
