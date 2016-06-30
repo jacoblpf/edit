@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="./css/p.css">
+	<script type="text/javascript" src="./jquery.js"></script>
+	<script type="text/javascript" src="./touchslider.js"></script>
+	<title>网页编辑器</title>
+	<style type="text/css">
+	.p-container {
+		max-width:640px;
+		margin: 0 auto; 
+	}
+	textarea {
+		position: fixed;
+		left: 0;
+		top: 0;
+	}
+	</style>
+</head>
+<body>
+<!-- <textarea id="refush"></textarea> -->
+</body>
+<script type="text/javascript">
+	$(function(){
+		if ($('#slider').length > 0){
+			new TouchSlider('slider',{duration:1000, direction:0, interval:3000,fullsize:true});
+		}
+		
+		if (window.localStorage){
+			$('body').html(window.localStorage.getItem('code'));
+		}
+	});
+	
+</script>
+</html>
